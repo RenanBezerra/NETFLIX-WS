@@ -4,15 +4,27 @@ const router = express.Router();
 const Filme = require('../models/filme')
 
 
-router.get('/', (req,res) => {
+router.get('/', async (req,res) => {
     // RECUPERAR TODOS REGISTROS
-    res.json({ mensagem : 'RECUPERAR TODOS REGISTROS'});
+    try {
+        const filmes = await Filme.find({});
+        res.json({ error: false, filmes });
+    } catch (error) {
+        res.json({ error: true, message: error.message});
+        
+    }
 });
 
-router.get('/:id', (req,res) => {
+router.get('/:id', async (req,res) => {
     // PEGAR SOMENTE O REGISTRO COM ID : 
-    const id = req.params.id;
-    res.json({ mensagem : `PEGAR SOMENTE O REGISTRO COM ID : ${id}` });
+    try {
+        const id = req.params.id; 
+        const filmes = await Filme.findById(id);
+        res.json({ error: false, filmes });
+    } catch (error) {
+        res.json({ error: true, message: error.message});
+        
+    }
 });
 
 router.post('/', async (req,res) => {
@@ -23,22 +35,37 @@ router.post('/', async (req,res) => {
         res.json({ error: false, body: response });
         
     } catch (error) {
-        res.json({ error: true, message: error.message });
+        res.json({ error: true, message: error.message  });
         
     }
 
 });
 
-router.put('/:id', (req,res) => {
+router.put('/:id', async (req,res) => {
     // ATUALIZAR O REGISTRO COM ID : 
-    const id = req.params.id;
-    res.json({ mensagem : `ATUALIZAR O REGISTRO COM ID : ${id}` });
+    try {
+        const id = req.params.id; 
+        const novoFilmes = req.body
+        const filme = await Filme.findByIdAndUpdate(id, novoFilmes);
+
+        res.json({ error: false, filme });
+    } catch (error) {
+        res.json({ error: true, message: error.message});
+        
+    }
 });
 
-router.delete('/:id', (req,res) => {
+router.delete('/:id', async (req,res) => {
     // DELETAR O REGISTRO COM ID : 
-    const id = req.params.id;
-    res.json({ mensagem : `DELETAR O REGISTRO COM ID :  ${id}` });
+    try {
+        const id = req.params.id; 
+        const filme = await Filme.findByIdAndDelete(id);
+
+        res.json({ error: false });
+    } catch (error) {
+        res.json({ error: true, message: error.message});
+        
+    }
 });
 
 module.exports = router;
