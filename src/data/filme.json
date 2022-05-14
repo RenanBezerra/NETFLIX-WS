@@ -1,0 +1,387 @@
+[
+    {
+        "titulo": "Enola Holmes",
+        "tipo": "serie",
+        "capa": "https://i.imgur.com/QGgXFl6.png",
+        "logo": "https://i.imgur.com/ZqxNOCO.png",
+        "thumb": "https://i.imgur.com/tPqnpDv.jpg",
+        "descricao": "Enola Holmes é um filme de mistério de 2020, baseado ",
+        "generos": [
+            "Filmes para toda a familia",
+            "Obras de época",
+            "Filmes baseados em livros."
+        ],
+        "elenco": [
+            "Millie Bob Brown",
+            "Henry Cavill",
+            "Sam Clanflin"
+        ],
+        "cenas_momentos": [
+            "Espirituosos",
+            "Suspense no ar",
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "Breaking Bad",
+        "tipo": "serie",
+        "capa": "https://i.imgur.com/EJyDFeY.png",
+        "logo": "https://i.imgur.com/4xN7wB8.png",
+        "thumb": "https://i.imgur.com/smFnAR5.jpg",
+        "descricao": "O professor de quimica Walter White não acredita que sua ",
+        "generos": [
+            "Séries dramáticas sobre crimes",
+            "Suspense para TV",
+            "Series dramaticas"
+        ],
+        "elenco": [
+            "Brayan Cranston",
+            "Aaron Paul",
+            "Anna Gunn"
+        ],
+        "cenas_momentos": [
+            "Violentos",
+            "Realistas",
+            "Sombrios"
+        ]
+    },
+    {
+        "titulo": "Greys's Anatomy",
+        "tipo": "serie",
+        "capa": "https://i.imgur.com/mPztp9C.png",
+        "logo": "https://i.imgur.com/Uy3KxUI.png",
+        "thumb": "https://i.imgur.com/kGMEeXT.png",
+        "descricao": "Um grupo de jovens médicos do Hospital Seattle Grace e suas ",
+        "generos": [
+            "Dramas romanticas para TV",
+            "Séries dramaticas",
+            "Series do EUA"
+        ],
+        "elenco": [
+            "Ellen Pompeo",
+            "Sandra Oh",
+            "Katherine Heigl"
+        ],
+        "cenas_momentos": [
+            "Comoventes",
+            "Romanticos"
+        ]
+    },
+    {
+        "titulo": "Gotham",
+        "tipo": "serie",
+        "capa": "https://i.imgur.com/iDm1pXK.png",
+        "logo": "https://i.imgur.com/oytW0ZC.png",
+        "thumb": "https://i.imgur.com/D6vEM6k.jpg",
+        "descricao": "O tenente James chega a Gotham com o intuito de combater ",
+        "generos": [
+            "Séries dramáticas sobre crimes",
+            "Séries baseadas em HQ",
+            "Series dramaticas"
+        ],
+        "elenco": [
+            "Ben Mackenzie",
+            "Donal Logue",
+            "Jada Pinkett Smith"
+        ],
+        "cenas_momentos": [
+            "Vigoroso",
+            "Empolgantes"
+        ]
+    },
+    {
+        "titulo": "The Umbrella Academy",
+        "tipo": "serie",
+        "capa": "https://i.imgur.com/tGKxkFz.png",
+        "logo": "https://i.imgur.com/gbLdK3F.png",
+        "thumb": "https://i.imgur.com/ErM4aCe.jpg",
+        "descricao": "Com a morte do pai, irmãos com poderes extraordinarios se recuperam",
+        "generos": [
+            "Séries de ficção cientifica",
+            "Séries baseadas em HQ",
+            "Series EUA"
+        ],
+        "elenco": [
+            "Ellen Page",
+            "Tom Hopper",
+            "David Castanheda"
+        ],
+        "cenas_momentos": [
+            "Realidade alternativa",
+            "Excentricos",
+            "Peculiares"
+        ]
+    },
+     {
+        "titulo": "Tropa de Elite",
+        "tipo": "filme",
+        "capa": "https://i.imgur.com/Sjxgn3y.png",
+        "logo": "https://i.imgur.com/oDHGhpX.png",
+        "thumb": "https://i.imgur.com/aMNtnxW.jpg",
+        "descricao": "O capitão da força especial da Policia Militar do Rio de Jnaeiro ",
+        "generos": [
+            "Filmes baseados em livros",
+            "Ação e aventura",
+            "Suspense de ação"
+        ],
+        "elenco": [
+            "Wagner Moura",
+            "André Ramiro",
+            "Caio Junqueira"
+        ],
+        "cenas_momentos": [
+            "Adrenalina",
+            "Realistas",
+            "Violentos"
+        ]
+    },
+    {
+       "titulo": "O Diabo de Cada Dia",
+       "tipo": "filme",
+       "capa": "https://i.imgur.com/88RFIe9.png",
+       "logo": "https://i.imgur.com/WaSZvXT.png",
+       "thumb": "https://i.imgur.com/HhJZwQc.jpg",
+       "descricao": "Ambientada entre a Segunda Guerra Mundial e a Guerra do Vietna",
+       "generos": [
+           "Filmes baseados em livros",
+           "Dramas",
+           "Dramas policiais"
+       ],
+       "elenco": [
+           "Tom Holland",
+           "Bill Skarsgard",
+           "Rillei Keough"
+       ],
+       "cenas_momentos": [
+           "Sinistros",
+           "Sombrios"
+       ]
+   },
+   {
+      "titulo": "O Atirador",
+      "tipo": "filme",
+      "capa": "https://i.imgur.com/2AyivZl.png",
+      "logo": "https://i.imgur.com/iZYZ4Oz.png",
+      "thumb": "https://i.imgur.com/i0UA8nY.jpg",
+      "descricao": "O atirador Marksman Bob Lee Swagger deixa o exercito e desaprece",
+      "generos": [
+          "Series dramaticas sobre crimes",
+          "Séries baseadas em livros",
+          "Séries dramaticas"
+      ],
+      "elenco": [
+          "Wagner Moura",
+          "André Ramiro",
+          "Caio Junqueira"
+      ],
+      "cenas_momentos": [
+          "Adrenalina",
+          "Realistas",
+          "Violentos"
+      ]
+  },
+  {
+     "titulo": "Lucifer",
+     "tipo": "serie",
+     "capa": "https://i.imgur.com/b2zLfsL.png",
+     "logo": "https://i.imgur.com/o7QZgVQ.png",
+     "thumb": "https://i.imgur.com/UOjMVEO.jpg",
+     "descricao": "Lucifer está entediado e infeliz como o Senhor do Infernoe ....",
+     "generos": [
+         "Series dramaticas sobre crimes",
+         "Séries de fantasia",
+         "Séries baseadas em HQ"
+     ],
+     "elenco": [
+         "Tom Ellis",
+         "Lauren German",
+         "Kevin Alejandro"
+     ],
+     "cenas_momentos": [
+         "Irreverentes",
+         "Empolgantes"
+     ]
+ },
+ {
+    "titulo": "Peaky Blinders",
+    "tipo": "serie",
+    "capa": "https://i.imgur.com/HOOt0ZR.png",
+    "logo": "https://i.imgur.com/yhjZgM3.png",
+    "thumb": "https://i.imgur.com/lOnb2zZ.jpg",
+    "descricao": "Serie sobre uma familia de gangsters na Inglaterra no começo ....",
+    "generos": [
+        "Series dramaticas sobre crimes",
+        "Obras de epoca",
+        "Séries britanicas"
+    ],
+    "elenco": [
+        "Cillian Murphy",
+        "Sam Neill",
+        "Helen MacCrory"
+    ],
+    "cenas_momentos": [
+        "Violentos",
+        "Vigoroso"
+    ]
+},
+{
+   "titulo": "The Old Guard",
+   "tipo": "filme",
+   "capa": "https://i.imgur.com/2xx9J0i.jpg",
+   "logo": "https://i.imgur.com/IeR5h4p.png",
+   "thumb": "https://i.imgur.com/aPfybIk.jpg",
+   "descricao": "The Old Guard é um filme de ação e ficção cientifica de suspeto ....",
+   "generos": [
+       "Filmes baseados em livros",
+       "Ação e aventura",
+       "Suspense de ação"
+   ],
+   "elenco": [
+       "Charlize Theron",
+       "KiKi Layne",
+       "Marwan Kenzari"
+   ],
+   "cenas_momentos": [
+       "Realistas",
+       "Empolgantes"
+   ]
+},
+{
+   "titulo": "Até o ultimo Homem",
+   "tipo": "filme",
+   "capa": "https://i.imgur.com/M4NVavf.jpg",
+   "logo": "https://i.imgur.com/8owLMuZ.png",
+   "thumb": "https://i.imgur.com/KiNM9OY.jpg",
+   "descricao": "Acompanhe a história de Desmond T. Doss um médico do exercito ....",
+   "generos": [
+       "Filmes baseados na vida real",
+       "Obras de epoca",
+       "Séries britanicas"
+   ],
+   "elenco": [
+       "Cillian Murphy",
+       "Sam Neill",
+       "Helen MacCrory"
+   ],
+   "cenas_momentos": [
+       "Violentos",
+       "Aqui tudo é possivel",
+       "Comoventes"
+   ]
+},
+{
+   "titulo": "O Regresso",
+   "tipo": "filme",
+   "capa": "https://i.imgur.com/fte3dLt.png",
+   "logo": "https://i.imgur.com/AE5wiM7.png",
+   "thumb": "https://i.imgur.com/4D6QQxb.jpg",
+   "descricao": "Acompanhe a história de Desmond T. Doss um médico do exercito ....",
+   "generos": [
+       "Filmes baseados na vida real",
+       "Obras de epoca",
+       "Séries britanicas"
+   ],
+   "elenco": [
+       "Cillian Murphy",
+       "Sam Neill",
+       "Helen MacCrory"
+   ],
+   "cenas_momentos": [
+       "Violentos",
+       "Aqui tudo é possivel",
+       "Comoventes"
+   ]
+},
+{
+   "titulo": "The Ridiculus 6",
+   "tipo": "filme",
+   "capa": "https://i.imgur.com/FDpAkEE.png",
+   "logo": "https://i.imgur.com/yfzjg81.png",
+   "thumb": "https://i.imgur.com/P50CAau.jpg",
+   "descricao": "Acompanhe a história de Desmond T. Doss um médico do exercito ....",
+   "generos": [
+       "Filmes baseados na vida real",
+       "Obras de epoca",
+       "Séries britanicas"
+   ],
+   "elenco": [
+       "Cillian Murphy",
+       "Sam Neill",
+       "Helen MacCrory"
+   ],
+   "cenas_momentos": [
+       "Violentos",
+       "Aqui tudo é possivel",
+       "Comoventes"
+   ]
+},
+{
+   "titulo": "Justiceiro",
+   "tipo": "serie",
+   "capa": "https://i.imgur.com/eXbhbs4.png",
+   "logo": "https://i.imgur.com/TKwvurS.png",
+   "thumb": "https://i.imgur.com/pa4Sd2m.jpg",
+   "descricao": "Acompanhe a história de Desmond T. Doss um médico do exercito ....",
+   "generos": [
+       "Filmes baseados na vida real",
+       "Obras de epoca",
+       "Séries britanicas"
+   ],
+   "elenco": [
+       "Cillian Murphy",
+       "Sam Neill",
+       "Helen MacCrory"
+   ],
+   "cenas_momentos": [
+       "Violentos",
+       "Aqui tudo é possivel",
+       "Comoventes"
+   ]
+},
+{
+   "titulo": "Em ritmo de fulga",
+   "tipo": "filme",
+   "capa": "https://i.imgur.com/DWxcN6m.png",
+   "logo": "https://i.imgur.com/nXaKDhu.png",
+   "thumb": "https://i.imgur.com/vH5MM6Z.jpg",
+   "descricao": "Acompanhe a história de Desmond T. Doss um médico do exercito ....",
+   "generos": [
+       "Filmes baseados na vida real",
+       "Obras de epoca",
+       "Séries britanicas"
+   ],
+   "elenco": [
+       "Cillian Murphy",
+       "Sam Neill",
+       "Helen MacCrory"
+   ],
+   "cenas_momentos": [
+       "Violentos",
+       "Aqui tudo é possivel",
+       "Comoventes"
+   ]
+},
+{
+   "titulo": "Troia",
+   "tipo": "filme",
+   "capa": "https://i.imgur.com/lDcF7c6.jpg",
+   "logo": "https://i.imgur.com/nI9wuJF.png",
+   "thumb": "https://i.imgur.com/mLck3pN.jpg",
+   "descricao": "Acompanhe a história de Desmond T. Doss um médico do exercito ....",
+   "generos": [
+       "Filmes baseados na vida real",
+       "Obras de epoca",
+       "Séries britanicas"
+   ],
+   "elenco": [
+       "Cillian Murphy",
+       "Sam Neill",
+       "Helen MacCrory"
+   ],
+   "cenas_momentos": [
+       "Violentos",
+       "Aqui tudo é possivel",
+       "Comoventes"
+   ]
+}
+]
