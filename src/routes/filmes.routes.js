@@ -1,8 +1,41 @@
 const express = require('express');
 const { PromiseProvider } = require('mongoose');
 const router = express.Router();
+const _ = require('underscore');
 const Filme = require('../models/filme')
+const Temporada = require('../models/temporada');
 
+//recuperar tela home
+router.get('/home', async (req, res) =>{
+    try {
+        //recupera todos filmes
+        let filmes = await Filme.find({});
+        let finalFilmes = [];
+        //recuperando temporadas
+        for (let filme of filmes){
+            const temporadas = await Temporada.find({
+                filme_id: filme._id
+            });
+            const novoFilme ={ ...filme._doc, temporadas};
+            finalFilmes.push(novoFilme);
+        }
+        //misturar resultados aleatoriamente 
+        finalFilmes = _.shuffle(finalFilmes);
+
+        //filme principal
+        const principal = finalFilmes[0];
+
+        //separar em secoes
+        const secoes = _.chunk(finalFilmes, 5);
+
+        res.json({ error: false,  principal, secoes});
+        
+        
+    } catch (error) {
+        res.json({ error: true, message: error.message});
+        
+    }
+})
 
 router.get('/', async (req,res) => {
     // RECUPERAR TODOS REGISTROS
